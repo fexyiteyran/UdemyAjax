@@ -78,6 +78,7 @@
                     },
                     success: function (data) {
                         $("#loader").hide();
+                        //donene jsondosyalrı ajaxsa dönüştürme
                         let kullanicilar = jQuery.parseJSON(data);
 
                         let htmlString = "<table class='table table-hover table-sm'> <tr> <th> Kullanici Id</th> <th>Kullanici Ad </th> </tr>";
