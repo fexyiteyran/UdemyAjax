@@ -81,6 +81,9 @@
                         let kullanicilar = jQuery.parseJSON(data);
 
                         let htmlString = "<table class='table table-hover table-sm'> <tr> <th> Kullanici Id</th> <th>Kullanici Ad </th> </tr>";
+
+
+                        //döngü ileriler listeleme ajjax
                         $.each(kullanicilar, (index, value) => {
                             htmlString += `<tr> <td>${value.Id} </td> <td>${value.Ad} </td> </tr>`
                         });
