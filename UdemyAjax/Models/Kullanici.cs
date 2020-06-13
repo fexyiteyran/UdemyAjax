@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 
 namespace UdemyAjax.Models
 {
+
+    //Kullanıcı işlemleri static clasta yapma
     public class Kullanici
     {
         public int Id { get; set; }
